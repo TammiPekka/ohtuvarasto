@@ -1,6 +1,6 @@
 [MASTER]
 
-ignore=src/tests
+ignore=tests
 
 [MESSAGE CONTROL]
 
