@@ -62,7 +62,7 @@ class TestVarasto(unittest.TestCase):
     def test_lisaa_liikaa(self):
         self.varasto.lisaa_varastoon(12)
         self.assertAlmostEqual(self.varasto.saldo, 10)
-    
+
     def test_str(self):
         varasto = Varasto(10)
         odotettu = "saldo = 0, vielä tilaa 10"
